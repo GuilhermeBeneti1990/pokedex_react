@@ -1,0 +1,17 @@
+.toolbar {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0 2em 0;
+}
+
+.toolbar img {
+    cursor: pointer;
+}
+
+.toolbar small {
+    font-size: 0.6em;
+    color: gray;
+    padding: 1em;
+}

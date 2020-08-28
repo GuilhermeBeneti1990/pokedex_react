@@ -1,0 +1,12 @@
+.infoButton {
+    cursor: pointer;
+}
+
+.helpSteps li {
+    list-style-type: decimal;
+}
+
+.helpButton {
+    background-color: lightcoral !important;
+    color: white !important;
+}

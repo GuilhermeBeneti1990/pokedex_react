@@ -1,0 +1,73 @@
+.noResultLabel {
+    margin-top: 10em;
+    font-size: 1em;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemonCard {
+    padding: 2em;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.popokemonImage {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderAndName {
+    display: flex;
+    flex-direction: row;
+}
+
+.order {
+    font-size: 1em;
+    color: gray;
+    margin-right: 1em;
+}
+
+.name {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.pokemonDimensions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pokemonDimensions span {
+    color: gray;
+}
+
+.types ul li {
+    list-style: none;
+    text-transform: capitalize;
+    margin: 2em 0 2em 0;
+}
+
+@media(max-width: 600px) {
+    .pokemonCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5em;
+    }
+
+    .popokemonImage img {
+        width: 50%;
+    }
+
+    .orderAndName {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+}

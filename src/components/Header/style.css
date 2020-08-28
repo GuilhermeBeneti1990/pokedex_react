@@ -1,0 +1,19 @@
+.appBar {
+    background-color: lightcoral !important;
+}
+
+.appToolBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoName span {
+    color: whitesmoke;
+    font-size: 0.6em;
+    margin-left: 1em;
+}
+
+.logoName {
+    cursor: pointer;
+}
